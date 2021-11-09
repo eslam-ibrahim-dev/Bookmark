@@ -1,0 +1,75 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/index-style.css">
+
+</head>
+
+<body>
+
+
+    <div class="bookmark">
+        <div class="container">
+            <div class="form-controls d-flex justify-content-center">
+                <div class="form w-50 py-5 my-5">
+
+                    <div class="headbook mb-3 text-white text-center ">
+                        <h1>Bookmarker</h1>
+                        <h3>Bookmark your favorite sites</h3>
+                    </div>
+
+                    <div class="form-group my-3">
+                        <label class="text-white my-2">Site Name *</label>
+                        <input type="text" id="SiteName" class="form-control">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="text-white my-2">Site URL *</label>
+                        <input type="text" id="SiteURL" class="form-control">
+                    </div>
+
+                    <div class="button text-center">
+                        <button id="bookmarkbtn" class="btn btn-primary mybtn p-3 my-3" onclick="GetBookMark()">Add
+                            Bookmark</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <section class="display my-5 py-5 ">
+        <div class="container">
+            <div class="bookmark-conatiner d-flex justify-content-center">
+                <div class="display-table w-50">
+                    <div id="bookmarkcardcontainer">
+                        <!-- <div class="bookmark-card" id="bookmarkcard">
+                            <div class="card-name float-start">
+                                <h3 class="bookmark-display-name">aslam</h3>
+                            </div>
+                            <div class="card-btn float-end">
+                                <button class="btn btn-warning">Visit</button>
+                                <button class="btn btn-secondary">Edit</button>
+                                <button class="btn btn-danger"> Delete</button>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/mine.js"></script>
+
+</body>
+
+</html>

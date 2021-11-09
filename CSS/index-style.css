@@ -1,0 +1,44 @@
+.bookmark
+{
+    background-image: url(../Image/download.jfif);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;   
+}
+.mybtn
+{
+transition: background-color 1s;
+}
+.mybtn:hover
+{
+    background-color: aqua;
+}
+.bookmark .headbook h1
+{
+ font-size: 60px;
+}
+.headbook h3
+{
+    font-size: 30px;
+}
+.bookmark label
+{
+    font-size: 20px;
+}
+.bookmark-card
+{
+    margin: 2rem 0;
+    padding: 10px;
+    border-radius: 0.3rem;
+    border: 1px solid #bbb;
+}
+.bookmark-card .btn
+{
+    transition: all 1s;
+}
+
+.bookmark-card .btn:hover
+{
+    background-color: #fff;
+    color: black;
+}
